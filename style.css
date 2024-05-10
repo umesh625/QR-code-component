@@ -7,35 +7,55 @@ body{
    background-color:hsl(212, 45%, 89%);
    font-family: "Outfit", sans-serif;
    font-size: 15px;
-   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+   /* background-color: black; */
+}
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container
 {
     
    height: 400px;
-   width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 250px;
-    border-color:2px solid black;
+   width: 250px;
+   background-color: white;
+   border-radius: 8px;
     
+}
+.qr_wrapper 
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
 }
 figure
 {
-    height: 100px;
-    width: 100px;
+    height: 220px;
+    width:90%;
+    margin: 10px 0px;
+      
 }
 img
 {
 height: 100%;
 width: 100%;
+border-radius: 10px;
+/* padding: 10px; */
 }
 
-h3 .advertisement
+ .advertisement
 {
-    font-weight: 700;
+    text-align: center;
 }
 .help
 {
     font-weight: 400;
+    text-align: center  ;
 }
